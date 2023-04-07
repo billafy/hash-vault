@@ -1,0 +1,25 @@
+.dropzone {
+  border: 2px dashed #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.dropzone:hover {
+  border-color: #888;
+}
+
+.dropzoneInput {
+  display: none;
+}
+
+.dropzoneInput p {
+  font-size: 1.2rem;
+  color: #555;
+}

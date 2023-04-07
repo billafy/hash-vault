@@ -1,0 +1,55 @@
+.myDocumentsContainer {
+  padding-top: 15vh;
+  margin: 15vh 1rem 5rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0px;
+  align-items: center;
+  gap: 1rem;
+}
+.tableContainer span {
+  font-size: 0.75rem;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #4e4e4e;
+  border-radius: 3px;
+}
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px;
+  border-left: 1px solid #4e4e4e;
+}
+.table th {
+  border-bottom: 1px solid #4e4e4e;
+}
+.table td {
+  font-size: 0.8rem;
+}
+.table tr {
+  border-bottom: 1px  solid #4e4e4e;
+}
+.table input {
+  height: 40px;
+  width: 100%;
+  padding: 0px 0.5rem;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+  background: linear-gradient(
+    140deg,
+    rgba(54, 190, 255, 1) 0%,
+    rgba(115, 63, 241, 1) 100%
+  );
+}
